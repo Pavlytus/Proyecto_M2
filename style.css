@@ -1,0 +1,455 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Ubuntu Sans", serif;    
+}
+#starbucks-icon{
+    display:inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 25px;
+    background-size: cover;
+}
+
+header{
+    height: 90px;
+}
+
+nav{
+    display: flex;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    vertical-align: middle;
+    justify-content: space-between;
+    position: fixed;
+}
+
+nav button{
+    border: 1px solid;
+    border-color: black;
+    border-radius: 50px;
+    padding: 10px 5px;
+    font-weight: 800;
+    line-height: 1;
+    cursor:pointer; 
+    font-size: 90%;    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.navBarButton, #starbucks-icon{
+    vertical-align: middle;
+}
+
+.navBarButton{
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 20px;
+    
+}
+
+.navBarButton a{
+    color: #212121;
+    padding-bottom: 30px;
+}
+
+#resaltar:hover{
+    border-bottom: 5px solid #00754a;
+    color: #00754a;
+}
+
+#boton_ingresar{
+    background-color: transparent;
+    color: black;
+    }
+
+#boton_unete{
+    background-color: black;
+    color: white;
+}
+#boton_unete:hover{
+    background-color: #4c4c4c;
+}
+#boton_ingresar:hover{
+    background-color: #f0f0f0;
+}
+.contenedor{
+    display: flex;
+}
+
+.bloquefijo{
+    height: 130%;
+    width: 40%;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
+    color: white;    
+    max-height: calc(-99px + 100vh);
+    margin: 0px;
+    font-size: 34px;
+    line-height: 150%;
+    text-align: center;
+    }
+.bloquefijo img{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 38%;
+    height: 40%;
+    z-index: -1;
+    }
+.bloquefijo h1{
+    font-size: 36px;
+    font-weight:900;
+    line-height: 120%;
+}
+.bloquefijo h2{
+    font-size: 28px;
+    line-height: 120%;
+    padding-bottom: 20px;
+}
+.bloquefijo button{
+    border-radius: 50px;
+    padding: 10px 5px;
+    font-weight: 800;
+    line-height: 1;
+    cursor:pointer; 
+    font-size: 50%; 
+ }
+ #boton_ingresar2{
+    border: 1px solid;
+    background-color: transparent;
+    color: white;
+    }
+
+#boton_unete2{
+    background-color: white;
+    color: #333333;
+border: none;}
+    
+#boton_ingresar2:hover{
+    border-color: #008248;
+    color:#008248
+}
+.desplegable{
+    position: absolute;
+    right: 0px;
+    top:90px
+    height:600px;
+    width:60%;
+    padding: 40px 100px;
+    background-color: none;
+    
+}
+.parrafocentral{
+    text-align: center;
+    font-size: 130%;
+    padding-bottom: 40px;
+}
+
+.menurewards{
+    display: flex;
+    flex-direction:row;
+    justify-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px ;
+ }
+
+.menurewards img{
+    height: 80%;
+    width: 80%;
+    }
+.menurewards div{
+    text-align: center;
+    font-weight: 400;
+}
+.equivalencias{
+    background-color: #f1f0eb;
+    margin: 0px -100px;
+    text-align: center;
+    padding: 40px;    
+}
+.equivalencias img{
+    height: 70%;
+    width: 70%;
+}
+.equivalencias div{
+    padding: 20px;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+}
+.recompensas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#estrellasrecompensas{
+    text-align: center;
+    padding: 30px 0px;
+}
+#estrellasrecompensas p{
+    font-size: 20px;
+    line-height: 40px;
+}
+#conglomerado{
+    display: flex;
+    flex-direction: row;
+       
+} 
+#conglomerado p{
+    vertical-align: middle;
+}
+#bullet{
+    display: block;
+    height: 15%;
+    width: 15%;
+}
+#pictures{
+    height: 30%;
+    width: 30%;
+    padding-bottom: 30px;
+}
+#animado{
+    height: 60%;
+    width: 60%;
+    padding-bottom: 30px;
+}
+#chica{
+    height: 60%;
+    width: 100%;
+    }
+.video{
+    background-color: black;
+    margin: 0px -100px;
+    display: flex;
+    justify-content: center;
+}
+#ordena{
+    display: flex;
+    margin: 0px -100px;
+    background-color: #edebe9; 
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    vertical-align: center;
+    text-align: center;
+    color: #212529;
+       
+}
+.ordenaypaga{
+    background-color: #edebe9; 
+    margin: 0px -100px;
+    padding: 30px 70px 0px 70px;
+}
+#canje{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 80px; ;
+    font-weight: 700;
+    align-items: center;
+   
+}
+#canje p{
+    padding-right: 20px;
+    color:#212529;
+}
+#dorada{
+    height: 8%;
+    width: 8%;
+}
+#celular{
+    height: 15%;
+    width: 15%;
+    padding-right: 15px;
+}
+#ordena_dos{
+    display: flex;
+    margin: 0px -100px;
+    background-color: #edebe9; 
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    vertical-align: center;
+    text-align: center;
+    color: #212529;
+    padding: 30px 140px;
+    font-size: 14px;
+       
+}
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    background-color: #edebe9; 
+    margin: 0px -100px;
+    padding: 30px 140px;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.tarjetas img{
+    height: 100%;
+    width: 100%;
+    
+}
+.tarjetas h1{
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+.recompensas_dos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.recompensas_dos div{
+    padding-bottom: 20px;
+}
+
+.recompensas_dos h2{
+    font-size: 22px;
+    padding-top: 40px;
+}
+    
+#animacionofertas{
+    height: 45%;
+    width: 45%;
+     }
+.recompensas_dos p{
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    color: #212529
+}
+#apple_google{
+    display: flex;
+    gap: 40px;
+    padding: 20px 0px 30px 0px;
+    
+}
+#manoregalo{
+    height: 80%;
+    width: 80%;
+    } 
+.chicocelular{
+    height: 60%;
+    background-color: #ecebe5; 
+    margin: 0px -100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+        padding: 0px 60px;
+}
+.chicocelular h1{
+    color: #212529
+    font-size: 18px; 
+    line-height: 35px;
+    margin-bottom: 15px; 
+}    
+    
+.chicocelular p{
+    font-weight: 600;
+    color: #212529
+    font-size: 15px;
+    margin-bottom: 18px;
+    line-height: 25px
+}
+
+.chicocelular img{
+    width: 70%;
+    height: 90%;
+    padding: 40px 0px;
+    vertical-align: middle;
+    color: #253129;
+}
+.chicocelular a{
+    color:#00754a;
+    text-decoration: underline;
+}
+.logoalpie{
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoalpie img{
+    width: 60%;
+    height: 60%;
+    padding: 0px;
+    text-align: center;
+}
+.atencion_cliente{
+    display: flex;
+    line-height: 40px;
+    margin-top: 30px;
+    border-top: #777;
+    border-bottom: #39514b;
+  }
+
+.atencion_cliente ul{
+    list-style-type: none;
+    padding: 30px;
+}
+    
+.atencion_cliente a{    
+    font-size: 15px;
+    font-weight: 600;
+    color: #777;
+}
+    
+.atencion_cliente h3{
+    color: black;
+    padding-bottom: 12px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.redes_sociales{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    padding: 30px 0px 20px;
+    border: 3px;
+    border-top: black;
+}  
+.redes_sociales img{
+    width: 70%;
+    height: 70%;
+    padding: 0%;
+    background-image: cover;
+    cursor: pointer;
+}
+.redes_sociales img:hover{
+    transform:translateY(-2px);
+    /* justify-content: space-around;  */
+}
+.avisos{
+    display: flex;
+    justify-content: center; 
+    gap: 35px;    
+}
+.avisos a{
+    color: #a9a199; 
+    font-size: 16px;
+}
+.avisos p{
+    color: #a9a199;  
+}
+.legal{
+    padding: 20px 0px;
+}
+.legal p{
+    text-align: center;
+    color: #a9a199; 
+    font-size: 14px;
+}
+.legal #pie{
+    font-size: 10px; 
+}
