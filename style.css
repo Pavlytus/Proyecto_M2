@@ -78,6 +78,14 @@ a{
     color: black;
     }
 
+#ubicacion{
+    display:inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px;
+    background-size: cover;
+}
+
 #boton_unete{
     background-color: black;
     color: white;
@@ -149,6 +157,8 @@ a{
     color: #333333;
 border: none;
 padding: 10px 10px;
+position: relative;
+z-index: 1;
 }
 
 #boton_ingresar2:hover{
