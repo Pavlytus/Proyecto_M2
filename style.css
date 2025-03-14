@@ -31,10 +31,10 @@ nav{
     z-index: 10;
     background-color: #ffffff;
     vertical-align: middle;
-    gap: 500px;
     position: fixed;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     width: 100%;
+    justify-content: space-between;
 }
 
 nav button{
@@ -119,11 +119,11 @@ a{
 
 .bloquefijo img{
     padding: 0px;
-    width: 16%;
-    height: 33%;
-    position: absolute;
-    bottom:-60px;
-    left:25%;
+    width: 40%;
+    height: 10%;
+    position: relative;
+    bottom: -20px;
+    left:30%;
     }
 
 .bloquefijo h1{
@@ -150,6 +150,8 @@ a{
     background-color: transparent;
     color: white;
     padding: 10px 10px;
+    position: relative;
+z-index: 1;
     }
 
 #boton_unete2{
@@ -492,20 +494,97 @@ z-index: 1;
     color: #a9a199; 
     font-size: 9px;
     }
+    
+@media (max-width: 48rem){
+        main{
+            overflow: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap:0px
+                }
+        }
+    
+@media (max-width: 48rem){
+            .bloquefijo{
+                position:relative;
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                align-items: center;
+                gap:0px
+                    }
+            }
 
-@media (min-width: 60rem){
-    .bloquefijo{
-        position:static;
-    }
-}
+            @media (max-width: 48rem){
+                .bloquefijo img{
+                    display: none;
+                
+                        }
+                }
+            @media (max-width: 48rem){
+                .desplegable{
+                    position:relative;
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    align-items: center;
+                    gap:0px
+                        }
+                }
 
+@media (max-width: 48rem){
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            justify-content: center;
+            gap:0px
+                }
+        }
+        
 
-@media (min-width: 60rem){
-nav{
+@media (max-width: 48rem){
+.menurewards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    gap:0px
-        }
+}
 } 
+
+@media (max-width: 48rem){
+    .equivalencias{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0;
+    }
+    } 
+@media (max-width: 48rem){
+        .recompensas{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px;
+            padding: 0;
+    }
+    }
+@media (max-width: 48rem){
+        .video{
+            background-color: black;
+            margin: 0px -100px;
+            display: flex;
+            justify-content: center;
+        
+    }
+    }
+@media (max-width: 48rem){
+        .ordenaypaga #canje{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px 0px;
+    }       
+}
