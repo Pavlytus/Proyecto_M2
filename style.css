@@ -400,6 +400,8 @@ padding: 10px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    margin: 0px -100px;
 }
 .logoalpie img{
     width: 60%;
@@ -411,8 +413,9 @@ padding: 10px 10px;
     display: flex;
     line-height: 40px;
     margin-top: 30px;
-    border-top: #777;
-    border-bottom: #39514b;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    margin: 0px -100px;
+    padding-bottom: 50px;
   }
 
 .atencion_cliente ul{
@@ -436,7 +439,7 @@ padding: 10px 10px;
     display: flex;
     justify-content: space-around;
     justify-content: center;
-    padding: 30px 0px 20px;
+    padding: 20px 0px 0px 20px;
     border: 3px;
     border-top: black;
 }  
@@ -453,9 +456,16 @@ padding: 10px 10px;
 }
 .avisos{
     display: flex;
-    justify-content: center; 
-    gap: 35px;    
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 10px;
+    line-height: 30px;
+    gap: 5px;
+    width: 100%; 
+    
 }
+
 .avisos a{
     color: #a9a199; 
     font-size: 16px;
@@ -464,16 +474,14 @@ padding: 10px 10px;
     color: #a9a199;  
 }
 .legal{
-    padding: 20px 0px;
-}
-.legal p{
+    height: 30%;
+    width: 100%;
+    padding: 10px 0px 50px 0px;
+    vertical-align: center;
     text-align: center;
     color: #a9a199; 
-    font-size: 14px;
-}
-.legal #pie{
-    font-size: 10px; 
-}
+    font-size: 9px;
+    }
 
 @media (min-width: 60rem){
     .bloquefijo{
